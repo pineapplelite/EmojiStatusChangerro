@@ -77,7 +77,7 @@
     <script>
         const tg = window.Telegram.WebApp;
         if (!tg) {
-            return window.alert('Please, open this WebApp in Telegram.');
+            window.alert('Please, open this WebApp in Telegram.');
         }
         document.getElementById('setEmoji').onclick = () => {
             const emojiId = document.getElementById('emojiInput').value;
