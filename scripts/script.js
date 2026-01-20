@@ -3,8 +3,8 @@ const tg = window.Telegram.WebApp;
 document.getElementById("header__title").onclick = () => {
   var requestElement = document.getElementById("main__emojiStatusAccessButton");
   var requestElementState = window.getComputedStyle(requestElement);
-  requestElement.style.visibility =
-    requestElementState.visibility === "hidden" ? "visible" : "hidden";
+  requestElement.style.display =
+    requestElementState.display === "none" ? "block" : "none";
 };
 
 document.getElementById("main__setEmojiButton").onclick = () => {
