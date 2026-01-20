@@ -48,6 +48,7 @@ body {
 
   margin-top: 1rem;
   padding: 0.2rem;
+  padding-bottom: 1rem;
   border-radius: 1.5rem;
   border-style: double;
   border-color: rgb(123, 0, 100);
@@ -107,7 +108,6 @@ body {
   font-family: "Times New Roman", Times, serif;
 
   margin-top: 0.3rem;
-  margin-bottom: 1rem;
   padding: 0.2rem;
 
   min-width: 70%;
