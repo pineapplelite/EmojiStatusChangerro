@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(190, 190, 190);
+  font-size: 18px;
+}
+
+@media (max-width: 110px) {
+  * {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 380px) {
+  * {
+    visibility: hidden;
+  }
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  background-color: rgb(50, 50, 50);
+
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-style: double;
+  border-color: rgb(123, 0, 100);
+}
+
+#header__title {
+  font-size: 32px;
+
+  margin: 1rem;
+}
+
+#main {
+  background-color: rgb(50, 50, 50);
+
+  margin-top: 1rem;
+  padding: 0.2rem;
+  border-radius: 1.5rem;
+  border-style: double;
+  border-color: rgb(123, 0, 100);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main__emojiInput {
+  background-color: rgb(20, 20, 20);
+  font-family: "Times New Roman", Times, serif;
+
+  margin-top: 1rem;
+  padding: 0.2rem;
+
+  width: 90%;
+  text-align: center;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  border-style: double;
+  border-color: rgb(123, 0, 100);
+}
+
+#main__emojiInput::placeholder {
+  color: rgb(88, 88, 88);
+}
+
+#main__emojiInput:focus {
+  outline: 2px solid rgb(190, 0, 155);
+  outline-style: double;
+}
+
+#main__setEmojiButton {
+  background-color: rgb(20, 20, 20);
+  font-family: "Times New Roman", Times, serif;
+
+  margin-top: 0.3rem;
+  padding: 0.2rem;
+
+  min-width: 80%;
+  text-align: center;
+  min-height: 2.5rem;
+  border-radius: 1.5rem;
+  border-style: double;
+  border-color: rgb(123, 0, 100);
+
+  transition: all 0.3s ease;
+}
+
+#main__setEmojiButton:active {
+  border-color: rgb(190, 0, 155);
+}
+
+#main__emojiStatusAccessButton {
+  background-color: rgb(20, 20, 20);
+  font-family: "Times New Roman", Times, serif;
+
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+
+  min-width: 70%;
+  text-align: center;
+  min-height: 2.5rem;
+  border-radius: 1.5rem;
+  border-style: double;
+  border-color: rgb(123, 0, 100);
+
+  transition: all 0.3s ease;
+}
+
+#main__emojiStatusAccessButton:active {
+  border-color: rgb(190, 0, 155);
+}
+
+#footer {
+  background-color: rgb(20, 20, 20);
+
+  margin-top: 1rem;
+  padding: 0.2rem;
+
+  text-align: center;
+  border-radius: 1.5rem;
+  border-style: double;
+  border-color: rgb(123, 0, 100);
+
+  text-decoration: none;
+}
